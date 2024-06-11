@@ -8,9 +8,9 @@ const Landing = () => {
 
     <>
     
-        <div className='Landing'>
-            <Hero/>
-        </div>
+      <div className='Landing'>
+        <Hero/>
+      </div>
     
     </>
 
