@@ -2,9 +2,11 @@ import React from 'react'
 import '../Css/Hero.css';
 import { BiCalendarEvent } from "react-icons/bi";
 import { IoLocationSharp } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 
-const Hero = () => {
+
+const Hero = ({ showmenu, setShowMenu }) => {
 
   return (
 
@@ -18,6 +20,7 @@ const Hero = () => {
                     <p>BCA 2024</p>
                     <p>Worship with US</p>
                 </div>
+                <div className='bugger_menu' onClick={()=>setShowMenu(!showmenu)}><GiHamburgerMenu style={{width: "100%", height: "100%", color: "white"}} /></div>
             </div>
             <div className='hero_bottom'>
                 <div className='hero_bottom_left'></div>
