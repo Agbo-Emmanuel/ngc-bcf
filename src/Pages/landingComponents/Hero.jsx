@@ -31,6 +31,10 @@ const Hero = () => {
                         <div className='hero_date_logo'><IoLocationSharp style={{width: "20px", height: "20px", color: "white"}} /></div>
                         <p>Solution Arena. 156, Ikorodu Road, Onipanu Bus Stop, Lagos.</p>
                     </div>
+                    <div className='hero_btns'>
+                        <div className='hero_Register_btn'>Register</div>
+                        <div className='hero_buystall_btn'>Buy Stall</div>
+                    </div>
                 </div>
             </div>
         </div>
