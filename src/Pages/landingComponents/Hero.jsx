@@ -29,7 +29,7 @@ const Hero = ({ showmenu, setShowMenu }) => {
                         <div className='hero_date_logo'><BiCalendarEvent style={{width: "20px", height: "20px", color: "white"}}/></div>
                         <p>Saturday 24th August,2024</p>
                     </div>
-                    <h1 className='hero_large_text'>NGC Business & Career FAIR 2024</h1>
+                    <h1 className='hero_large_text'>NGC Business & Career Fair 2024</h1>
                     <div className='hero_date'>
                         <div className='hero_date_logo'><IoLocationSharp style={{width: "20px", height: "20px", color: "white"}} /></div>
                         <p>Solution Arena. 156, Ikorodu Road, Onipanu Bus Stop, Lagos.</p>
