@@ -50,6 +50,31 @@
     margin-bottom: 10px;
 }
 
+.about_business{
+    width: 100%;
+    padding: 30px 60px 20px 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.about_business_img{
+    width: 159px;
+    height: 119px;
+    background-color: red;
+}
+.about_business_text{
+    width: 70%;
+    height: 90px;
+    /* background-color: green; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    color: white;
+}
+
 
 
 

@@ -6,7 +6,7 @@ const About = () => {
     <>
     
         <div className='about'>
-            <h1>About NBCA</h1>
+            <h1>About NGC-BCF</h1>
             <div className='about_context'>
                 <div className='about_img'></div>
                 <div className='about_text'>
@@ -18,6 +18,11 @@ const About = () => {
                     training people to love, to live and to lead like Jesus.</p>
                 </div>
             </div>
+        </div>
+        <div className='about_business'>
+          <div className='about_business_img'></div>
+          <div className='about_business_text'>NGC Business and Career Affair is an outreach dedicated to Kingdom influencers
+          and establishment in the marketplace through entrepreneurship and career excellence.</div>
         </div>
     
     </>
