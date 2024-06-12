@@ -1,0 +1,77 @@
+.about{
+    width: 100%;
+    padding: 70px 50px 30px 50px ;
+    background-color: #FEEFF8;
+}
+
+.about > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.about_context{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+
+.about_img{
+    width: 45%;
+    height: 400px;
+    /* background-color: red; */
+    background-image: url('../../assets/redeemedaboutimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about_text{
+    width: 50%;
+    height: 400px;
+    /* background-color: green; */
+}
+.about_text > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.about_text > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .about{
+        padding: 40px 15px 30px 15px ;
+    }
+    .about_context{
+        flex-direction: column;
+    }
+    .about_img{
+        width: 100%;
+        height: 300px;
+    }
+    .about > h1{
+        font-size: 25px;
+    }
+    .about_text{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        /* background-color: red; */
+    }
+}

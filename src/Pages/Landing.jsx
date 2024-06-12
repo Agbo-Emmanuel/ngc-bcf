@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Css/landing.css';
 import Hero from './landingComponents/Hero';
+import About from './landingComponents/About';
 
 const Landing = () => {
 
@@ -12,11 +13,7 @@ const Landing = () => {
     
       <div className='Landing'>
         <Hero showmenu = {showMenu} setShowMenu = {setShowMenu}/>
-        {
-          showMenu ? <div style={{width: "90%", height: "200px", backgroundColor: "yellow"}}>
-
-          </div> : null
-        }
+        <About/>
       </div>
     
     </>
