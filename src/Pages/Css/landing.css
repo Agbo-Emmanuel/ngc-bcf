@@ -7,3 +7,55 @@
 .Landing{
     width: 100%;
 }
+
+.nbca{
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+    background-color: #FEEFF8;
+}
+.nbca_card{
+    width: 100%;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.nbca_card_left{
+    width: 50%;
+    /* background-color: yellow; */
+}
+.nbca_card_left_top > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+}
+.nbca_card_left_top > h3 >  span{
+    font-weight: 600;
+}
+.nbca_card_right{
+    width: 35%;
+    height: 300px;
+    /* background-color: red; */
+    background-image: url('../../assets/image3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nbca_card_left > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.nbca_card_left > h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
