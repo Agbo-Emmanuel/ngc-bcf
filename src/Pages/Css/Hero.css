@@ -162,3 +162,62 @@
     cursor: pointer;
     border: 2.5px solid white;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .bugger_menu{
+        display: flex;
+        width: 40px;
+        height: 50px;
+    }
+    .hero_links{
+        display: none;
+    }
+    .hero_top{
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero_logo{
+        width: 50%;
+    }
+    .hero_bottom{
+        /* background-color: blue; */
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .hero_bottom_right{
+        width: 100%;
+        /* background-color: grey; */
+        gap: 5px;
+        margin-left: 0px;
+    }
+    .hero_large_text{
+        font-size: 53px;
+        font-weight: 800;
+        line-height: 65px;
+    }
+    .hero_date{
+        align-items: flex-start;
+        gap: 4px;
+    }
+    .hero_btns{
+        padding: 10px 30px 10px 30px;
+        flex-direction: column;
+    }
+    .hero_buystall_btn{
+        padding: 20px 50px 20px 50px;
+    }
+    .hero_Register_btn{
+        padding: 20px 50px 20px 50px;
+    }
+    .hero_bottom_left{
+        width: 30%;
+        /* background-color: green; */
+        margin-left: 0px;
+    }
+
+}
