@@ -1,0 +1,47 @@
+.host{
+    width: 100%;
+    background: 
+    linear-gradient(to left, #000000a2, #000000a2, #000000a2), 
+    url('../../assets/hostbg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 30px 0px;
+    gap: 80px;
+}
+
+
+.the_host{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    gap: 30px;
+}
+.the_host > h1{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 32px;
+}
+.host_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .host_img{
+        gap: 30px;
+    }
+}
