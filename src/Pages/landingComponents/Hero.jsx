@@ -35,8 +35,8 @@ const Hero = ({ showmenu, setShowMenu }) => {
                         <p>Solution Arena. 156, Ikorodu Road, Onipanu Bus Stop, Lagos.</p>
                     </div>
                     <div className='hero_btns'>
-                        <div className='hero_Register_btn'>Register</div>
-                        <div className='hero_buystall_btn'>Buy Stall</div>
+                        <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Register</div>
+                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Buy Stall</div>
                     </div>
                 </div>
             </div>
