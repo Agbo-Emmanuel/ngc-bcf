@@ -1,19 +1,10 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-.Landing{
-    width: 100%;
-}
-
-.nbca{
+.ngc_card_holder{
     width: 100%;
     padding: 30px 40px 30px 40px;
     background-color: #FEEFF8;
 }
-.nbca_card{
+
+.ngc_card{
     width: 100%;
     padding: 50px;
     background-color: #fff;
@@ -21,30 +12,32 @@
     display: flex;
     justify-content: space-between;
 }
-.nbca_card_left{
+.ngc_card_left{
     width: 50%;
     /* background-color: yellow; */
 }
-.nbca_card_left_top > h3{
+.ngc_card_left_top > h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 36px;
 }
-.nbca_card_left_top > h3 >  span{
+.ngc_card_left_top > h3 >  span{
     font-weight: 600;
 }
-.nbca_card_right{
+.ngc_card_right{
     width: 35%;
     height: 300px;
-    /* background-color: red; */
-    background-image: url('../../assets/image3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: red;
+}
+.ngc_card_right > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-.nbca_card_left > p{
+.ngc_card_left > p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -52,36 +45,39 @@
     margin-top: 10px;
 }
 
-.nbca_card_left > h4{
+.apply_btn{
+    padding: 15px 50px 15px 50px;
+    background: linear-gradient(to right, #662C89, #971E62, #E72A7A);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 20px;
+    text-align: center;
 }
 
-.ngc_card_holder{
-    width: 100%;
-    padding: 30px 40px 30px 40px;
-    background-color: #FEEFF8;
-}
+
 
 
 
 @media screen and (max-width: 768px) {
 
-    .nbca_card{
+    .ngc_card{
         padding: 10px;
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .nbca{
+    .ngc_card_holder{
         padding: 30px 10px 30px 10px;
     }
-    .nbca_card_left{
+    .ngc_card_left{
         width: 100%;
     }
-    .nbca_card_right{
+    .ngc_card_right{
         width: 100%;
     }
 

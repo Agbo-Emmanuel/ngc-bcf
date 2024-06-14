@@ -1,0 +1,28 @@
+import React from 'react'
+import '../Css/ngccard.css'
+
+const NgcCard = ({ title, subT, text, btn, img, flexD }) => {
+
+  return (
+
+    <>
+    
+        <div className='ngc_card_holder'>
+            <div className='ngc_card'>
+                <div className='ngc_card_left'>
+                    <div className='ngc_card_left_top'>
+                        <h3>{title} <span>{subT}</span></h3>
+                    </div>
+                    <p>{text}</p>
+                    <button className='apply_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>{btn}</button>
+                </div>
+                <div className='ngc_card_right'><img src={img} alt=''/></div>
+            </div>
+        </div>
+        
+    </>
+
+  )
+}
+
+export default NgcCard
