@@ -3,6 +3,7 @@ import '../Css/Hero.css';
 import { BiCalendarEvent } from "react-icons/bi";
 import { IoLocationSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { ScrollToAboutUs, ScrollToBCA, ScrollToWorshipWithUs } from './ScrollToComponent';
 
 
 
@@ -16,9 +17,9 @@ const Hero = ({ showmenu, setShowMenu }) => {
             <div className='hero_top'>
                 <div className='hero_logo'></div>
                 <div className='hero_links'>
-                    <p>About Us</p>
-                    <p>BCA 2024</p>
-                    <p>Worship with US</p>
+                    <p><ScrollToAboutUs scrollToId="About Us"/></p>
+                    <p><ScrollToBCA scrollToId="NGC"/></p>
+                    <p><ScrollToWorshipWithUs scrollToId="Worship with Us"/></p>
                 </div>
                 <div className='bugger_menu' onClick={()=>setShowMenu(!showmenu)}><GiHamburgerMenu style={{width: "100%", height: "100%", color: "white"}} /></div>
             </div>
