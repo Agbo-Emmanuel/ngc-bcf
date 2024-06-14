@@ -3,6 +3,16 @@ import '../Css/ngccard.css'
 
 const NgcCard = ({ title, subT, text, btn, img, text2 }) => {
 
+
+    const send = ()=>{
+
+        if(btn === "Buy Stall"){
+            window.location.href = "https://forms.office.com/r/NUgpXm82tb"
+        }else{
+            window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"
+        }
+    }
+
   return (
 
     <>
@@ -15,7 +25,7 @@ const NgcCard = ({ title, subT, text, btn, img, text2 }) => {
                     </div>
                     <p>{text}</p>
                     <p>{text2}</p>
-                    <button className='apply_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>{btn}</button>
+                    <button className='apply_btn' onClick={send}>{btn}</button>
                 </div>
                 <div className='ngc_card_right'><img src={img} alt=''/></div>
             </div>

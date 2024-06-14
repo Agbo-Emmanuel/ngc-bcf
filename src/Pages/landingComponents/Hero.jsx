@@ -32,11 +32,11 @@ const Hero = ({ showmenu, setShowMenu }) => {
                     <h1 className='hero_large_text'>NGC Business & Career Fair 2024</h1>
                     <div className='hero_date'>
                         <div className='hero_date_logo'><IoLocationSharp style={{width: "20px", height: "20px", color: "white"}} /></div>
-                        <p>Solution Arena. 156, Ikorodu Road, Onipanu Bus Stop, Lagos.</p>
+                        <p>78, Marine Road Apapa Lagos.</p>
                     </div>
                     <div className='hero_btns'>
                         <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Register</div>
-                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Buy Stall</div>
+                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/NUgpXm82tb"}>Buy Stall</div>
                     </div>
                 </div>
             </div>

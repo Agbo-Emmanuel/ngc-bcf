@@ -6,6 +6,7 @@ import Host from './landingComponents/Host';
 import NgcCard from './landingComponents/NgcCard';
 import image3 from '../assets/image3.png';
 import DontMissIt from './landingComponents/DontMissIt';
+import WorshipWIthUs from './landingComponents/WorshipWIthUs';
 
 const Landing = () => {
 
@@ -24,9 +25,7 @@ const Landing = () => {
               <div className='nbca_card_left_top'>
                 <h3>NGC-BCF <span>2024</span></h3>
               </div>
-              <p>Join us at the  NGC Business and Career fair to date! This year's event
-                  promises to be bigger and better, bringing together a vibrant community of business
-                  leaders, career professionals, and aspiring entrepreneurs.
+              <p>This event aims to unite diverse business leaders, career professionals, and budding entrepreneurs, offering an enriching experience with dynamic break out sessions, inspiring keynote addresses, and valuable networking prospects.
               </p>
               <h4>Theme:</h4>
               <p>Staying Ahead of the Curve</p>
@@ -58,6 +57,7 @@ const Landing = () => {
           text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career Affair offers unparalleled exposure and growth opportunities."
           img = {image3}
           />
+          <WorshipWIthUs/>
       </div>
     
     </>
