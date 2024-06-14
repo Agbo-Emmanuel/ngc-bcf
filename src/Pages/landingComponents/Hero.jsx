@@ -4,6 +4,7 @@ import { BiCalendarEvent } from "react-icons/bi";
 import { IoLocationSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ScrollToAboutUs, ScrollToBCA, ScrollToWorshipWithUs } from './ScrollToComponent';
+import MobileMenu from './MobileMenu';
 
 
 
@@ -41,6 +42,9 @@ const Hero = ({ showmenu, setShowMenu }) => {
                     </div>
                 </div>
             </div>
+            {
+                showmenu ? <MobileMenu showmenu = {showmenu} setShowMenu = {setShowMenu}/> : null
+            }
         </div>
     
     </>
