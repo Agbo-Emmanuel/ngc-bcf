@@ -1,0 +1,62 @@
+.worship_with_us{
+    width: 100%;
+    background-color: #210E2C;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.worship_with_us_left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.worship_with_us_left > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.worship_with_us_left > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.worship_with_us_right{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.worship_with_us_right > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.worship_with_us_right > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.media_links{
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .worship_with_us{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
