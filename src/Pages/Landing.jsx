@@ -5,6 +5,7 @@ import About from './landingComponents/About';
 import Host from './landingComponents/Host';
 import NgcCard from './landingComponents/NgcCard';
 import image3 from '../assets/image3.png';
+import DontMissIt from './landingComponents/DontMissIt';
 
 const Landing = () => {
 
@@ -41,6 +42,7 @@ const Landing = () => {
           btn = 'Apply Now'
           img = {image3}
           />
+          <DontMissIt/>
       </div>
     
     </>
