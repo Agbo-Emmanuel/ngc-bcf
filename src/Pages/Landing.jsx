@@ -8,6 +8,7 @@ import image3 from '../assets/image3.png';
 import DontMissIt from './landingComponents/DontMissIt';
 import WorshipWIthUs from './landingComponents/WorshipWIthUs';
 
+
 const Landing = () => {
 
   const [showMenu, setShowMenu] = useState(false);
@@ -18,8 +19,10 @@ const Landing = () => {
     
       <div className='Landing'>
         <Hero showmenu = {showMenu} setShowMenu = {setShowMenu}/>
-        <About/>
-        <div className='nbca'>
+        <div id='About Us'>
+          <About />
+        </div>
+        <div id='NGC' className='nbca'>
           <div className='nbca_card'>
             <div className='nbca_card_left'>
               <div className='nbca_card_left_top'>
@@ -57,7 +60,9 @@ const Landing = () => {
           text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career Affair offers unparalleled exposure and growth opportunities."
           img = {image3}
           />
-          <WorshipWIthUs/>
+          <div id='Worship with Us'>
+            <WorshipWIthUs/>
+          </div>
       </div>
     
     </>
