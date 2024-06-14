@@ -13,10 +13,11 @@ const Landing = () => {
 
   const [showMenu, setShowMenu] = useState(false);
 
+
   return (
 
-    <>
-    
+    <> 
+
       <div className='Landing'>
         <Hero showmenu = {showMenu} setShowMenu = {setShowMenu}/>
         <div id='About Us'>
@@ -64,8 +65,8 @@ const Landing = () => {
             <WorshipWIthUs/>
           </div>
       </div>
-    
-    </>
+
+     </>
 
   )
 }

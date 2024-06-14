@@ -28,7 +28,7 @@ const WorshipWIthUs = () => {
                     <IoLogoYoutube size={20} cursor='pointer'/>
                     <AiFillInstagram size={20} cursor='pointer'/>
                 </div>
-                <p>@kingsconnected</p>
+                <p>rccgngc04@gmail.com</p>
             </div>
         </div>
     
