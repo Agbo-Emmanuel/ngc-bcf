@@ -70,6 +70,7 @@
     background-position: center;
     animation: rocket-spin infinite 5s linear;
     margin-left: 100px;
+    display: flex;
 }
 
 
@@ -166,6 +167,10 @@
         background: 
         linear-gradient(to left, rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942)), 
         url('../../assets/redeemedherobackground.png');
+    }
+
+    .hero_bottom_left{
+        display: none;
     }
     
     .bugger_menu{
