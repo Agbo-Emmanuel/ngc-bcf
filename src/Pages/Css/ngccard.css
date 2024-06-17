@@ -68,7 +68,7 @@
 
     .ngc_card{
         padding: 10px;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
         gap: 20px;
     }
     .ngc_card_holder{
