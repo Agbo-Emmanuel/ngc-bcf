@@ -33,12 +33,14 @@
     width: 50%;
     height: 400px;
     /* background-color: green; */
+    display: flex;
+    align-items: center;
 }
 .about_text > p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .about_text > h3{

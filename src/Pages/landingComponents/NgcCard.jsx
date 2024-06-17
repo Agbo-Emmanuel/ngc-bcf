@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Css/ngccard.css'
 
-const NgcCard = ({ title, subT, text, btn, img, text2 }) => {
+const NgcCard = ({ title, subT, text, btn, img, text2, direction }) => {
 
 
     const send = ()=>{
@@ -17,8 +17,8 @@ const NgcCard = ({ title, subT, text, btn, img, text2 }) => {
 
     <>
     
-        <div className='ngc_card_holder'>
-            <div className='ngc_card'>
+        <div className='ngc_card_holder' >
+            <div className='ngc_card' style={{flexDirection : direction}} >
                 <div className='ngc_card_left'>
                     <div className='ngc_card_left_top'>
                         <h3>{title} <span>{subT}</span></h3>
