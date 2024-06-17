@@ -62,7 +62,7 @@ const Landing = () => {
           title = '' 
           subT = '' 
           text = "Secure your booth/stall at the largest and most anticipated NGC Business and Career Affair yet! This year, we're bigger and better, bringing together business leaders, career professionals, and aspiring entrepreneurs.  "
-          btn = 'Buy Stall'
+          btn = 'Book a Spot'
           text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career Affair offers unparalleled exposure and growth opportunities."
           img = {image3}
           direction = 'row-reverse'

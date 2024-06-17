@@ -38,7 +38,7 @@ const Hero = ({ showmenu, setShowMenu }) => {
                     </div>
                     <div className='hero_btns'>
                         <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Register</div>
-                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/NUgpXm82tb"}>Buy Stall</div>
+                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/NUgpXm82tb"}>Book a Spot</div>
                     </div>
                 </div>
             </div>

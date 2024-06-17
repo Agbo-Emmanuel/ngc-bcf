@@ -2,7 +2,7 @@
     width: 100%;
     background-color: black;
     background: 
-    linear-gradient(to left, #080808, #1e1e1ef3, #0f0416d7), 
+    linear-gradient(to left, rgb(1, 58, 1), rgb(6, 91, 6), rgba(1, 31, 1, 0.707)), 
     url('../../assets/redeemedherobackground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@
     font-weight: 500;
     line-height: 28px;
     text-align: center;
-    color: #662C89;
+    color: darkgreen;
     border-radius: 12px;
     cursor: pointer;
 }

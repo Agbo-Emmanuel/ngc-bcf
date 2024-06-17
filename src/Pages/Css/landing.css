@@ -11,7 +11,7 @@
 .nbca{
     width: 100%;
     padding: 30px 40px 30px 40px;
-    background-color: #FEEFF8;
+    background-color: #ffffff;
 }
 .nbca_card{
     width: 100%;
@@ -20,6 +20,7 @@
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 18px 0px lightgrey;
 }
 .nbca_card_left{
     width: 50%;
@@ -33,6 +34,7 @@
 }
 .nbca_card_left_top > h3 >  span{
     font-weight: 600;
+    color: darkgreen;
 }
 .nbca_card_right{
     width: 35%;
