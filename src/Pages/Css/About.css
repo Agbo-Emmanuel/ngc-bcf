@@ -1,7 +1,7 @@
 .about{
     width: 100%;
     padding: 70px 50px 30px 50px ;
-    background-color: #FEEFF8;
+    background-color: #ffffff;
 }
 
 .about > h1{
@@ -35,6 +35,10 @@
     /* background-color: green; */
     display: flex;
     align-items: center;
+}
+.about_text > p > span {
+    color: darkgreen;
+    font-weight: 600;
 }
 .about_text > p{
     font-family: 'Montserrat', sans-serif;

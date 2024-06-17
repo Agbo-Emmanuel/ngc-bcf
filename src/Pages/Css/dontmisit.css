@@ -1,7 +1,7 @@
 .dont_miss_it{
     width: 100%;
     padding: 50px 10px 50px 10px;
-    background-color: #FEEFF8;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,6 +36,7 @@
 .card_title_logo{
     width: 19%;
     height: 45px;
+    color: green;
     /* background-color: red; */
 }
 .dont_miss_it_card > h3{

@@ -10,7 +10,7 @@ const About = () => {
             <div className='about_context'>
                 <div className='about_img'></div>
                 <div className='about_text'>
-                  <p>The NGC Business and Career Fair is dedicated to establishing a vibrant forum where believers thrive in business and career pursuits, offering valuable insights, strategies, and networking for growth and collaboration.</p>
+                  <p>The <span>NGC</span> Business and Career Fair is dedicated to establishing a vibrant forum where believers thrive in business and career pursuits, offering valuable insights, strategies, and networking for growth and collaboration.</p>
                 </div>
             </div>
         </div>
