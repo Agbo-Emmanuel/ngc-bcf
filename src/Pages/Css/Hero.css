@@ -162,6 +162,12 @@
 
 @media screen and (max-width: 768px) {
 
+    .Hero{
+        background: 
+        linear-gradient(to left, rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942)), 
+        url('../../assets/redeemedherobackground.png');
+    }
+    
     .bugger_menu{
         display: flex;
         width: 40px;
