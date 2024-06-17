@@ -25,7 +25,7 @@ const Hero = ({ showmenu, setShowMenu }) => {
                 <div className='bugger_menu' onClick={()=>setShowMenu(!showmenu)}><GiHamburgerMenu style={{width: "100%", height: "100%", color: "white"}} /></div>
             </div>
             <div className='hero_bottom'>
-                {/* <div className='hero_bottom_left'></div> */}
+                <div className='hero_bottom_left'></div>
                 <div className='hero_bottom_right'>
                     <div className='hero_date'>
                         <div className='hero_date_logo'><BiCalendarEvent style={{width: "20px", height: "20px", color: "white"}}/></div>
