@@ -4,6 +4,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaRegHandshake } from "react-icons/fa";
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { FaArrowUpRightDots } from "react-icons/fa6";
+import { motion } from 'framer-motion'
 
 
 
@@ -37,7 +38,22 @@ const DontMissIt = () => {
 
     <>
     
-        <div className='dont_miss_it'>
+        <motion.div
+            initial={{
+                opacity: 0,
+                y: 300,
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 30,
+                mass: 1.5,
+            }}
+            whileInView={{
+                opacity: 1,
+                y: 0,
+            }}
+            viewport={{ margin: "-40px", once: true }}
+            className='dont_miss_it'>
             <h1>DON’T MISS IT</h1>
             <div className='dont_miss_it_card_holder'>
                 {
@@ -50,7 +66,7 @@ const DontMissIt = () => {
                     ))
                 }
             </div>
-        </div>
+        </motion.div>
     
     </>
 

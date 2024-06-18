@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/ngccard.css'
+import { motion } from 'framer-motion'
 
 const NgcCard = ({ title, subT, text, btn, img, text2, direction }) => {
 
@@ -18,7 +19,24 @@ const NgcCard = ({ title, subT, text, btn, img, text2, direction }) => {
     <>
     
         <div className='ngc_card_holder' >
-            <div className='ngc_card' style={{flexDirection : direction}} >
+            <motion.div 
+                className='ngc_card' 
+                style={{flexDirection : direction}} 
+                initial={{
+                    opacity: 0,
+                    y: 300,
+                  }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 30,
+                    mass: 1.5,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  viewport={{ margin: "-40px", once: true }}
+                >
                 <div className='ngc_card_left'>
                     <div className='ngc_card_left_top'>
                         <h3>{title} <span>{subT}</span></h3>
@@ -28,7 +46,7 @@ const NgcCard = ({ title, subT, text, btn, img, text2, direction }) => {
                     <button className='apply_btn' onClick={send}>{btn}</button>
                 </div>
                 <div className='ngc_card_right'><img src={img} alt=''/></div>
-            </div>
+            </motion.div>
         </div>
         
     </>
