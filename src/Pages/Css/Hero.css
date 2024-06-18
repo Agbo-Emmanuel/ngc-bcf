@@ -3,7 +3,7 @@
     background-color: black;
     background: 
     linear-gradient(to left, rgb(1, 58, 1), rgb(6, 91, 6), rgba(1, 31, 1, 0.707)), 
-    url('../../assets/redeemedherobackground.png');
+    url('../../assets/redeemedaboutimage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,7 +64,7 @@
     width: 13%;
     height: 200px;
     /* background-color: green; */
-    background-image: url('../../assets/rocket.svg');
+    /* background-image: url('../../assets/rocket.svg'); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
