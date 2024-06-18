@@ -4,9 +4,8 @@ import Hero from './landingComponents/Hero';
 import About from './landingComponents/About';
 import Host from './landingComponents/Host';
 import NgcCard from './landingComponents/NgcCard';
-import image1 from '../assets/challengeimage.png';
-import image2 from '../assets/cardtwoimage.png';
-import image3 from '../assets/cardthreimage.png';
+import image2 from '../assets/ngcbusinessimage.jpg';
+import image3 from '../assets/ngcsecurestall.jpg';
 import DontMissIt from './landingComponents/DontMissIt';
 import WorshipWIthUs from './landingComponents/WorshipWIthUs';
 import { motion } from 'framer-motion'
@@ -60,13 +59,13 @@ const Landing = () => {
           </motion.div>
         </div>
         <Host/>
-        <NgcCard 
+        {/* <NgcCard 
           title = 'NGC-BCF' 
           subT = 'SME CHALLENGE' 
           text = 'Ready to launch your dream job or business? Join us at the NGC Business Career Fair the ultimate event to supercharge your career and empower your business!.'
           btn = 'Apply Now'
           img = {image1}
-        />
+        /> */}
           <DontMissIt/>
         <NgcCard 
           title = '' 
@@ -79,7 +78,7 @@ const Landing = () => {
           title = '' 
           subT = '' 
           text = "Secure your booth/stall at the largest and most anticipated NGC Business and Career Affair yet! This year, we're bigger and better, bringing together business leaders, career professionals, and aspiring entrepreneurs.  "
-          btn = 'Book a Spot'
+          btn = 'Book a Stall'
           text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career Affair offers unparalleled exposure and growth opportunities."
           img = {image3}
           direction = 'row-reverse'

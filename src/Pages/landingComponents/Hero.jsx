@@ -37,7 +37,7 @@ const Hero = ({ showmenu, setShowMenu }) => {
                         <p>78, Marine Road Apapa Lagos.</p>
                     </div>
                     <div className='hero_btns'>
-                        <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.office.com/r/QwZ6ymVTnd"}>Register</div>
+                        <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.gle/sSfeVvk3aoXXUGnw7"}>Register</div>
                         <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/NUgpXm82tb"}>Book a Spot</div>
                     </div>
                 </div>
