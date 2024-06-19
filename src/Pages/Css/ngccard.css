@@ -51,7 +51,7 @@
 .apply_btn{
     padding: 15px 50px 15px 50px;
     background-color: x;
-    background: linear-gradient(to right, green, rgb(6, 67, 6), black);
+    background: linear-gradient(to right, darkblue, rgb(4, 23, 134), black);
     color: white;
     border: none;
     border-radius: 8px;

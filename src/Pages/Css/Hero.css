@@ -2,7 +2,7 @@
     width: 100%;
     background-color: black;
     background: 
-    linear-gradient(to left, rgb(1, 58, 1), rgb(6, 91, 6), rgba(1, 31, 1, 0.707)), 
+    linear-gradient(to left, rgb(3, 23, 87), rgb(3, 25, 99), rgba(1, 5, 31, 0.707)), 
     url('../../assets/redeemedaboutimage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,7 +141,7 @@
     font-weight: 500;
     line-height: 28px;
     text-align: center;
-    color: darkgreen;
+    color: darkblue;
     border-radius: 12px;
     cursor: pointer;
 }
