@@ -37,8 +37,8 @@
     color: darkblue;
 }
 .nbca_card_right{
-    width: 35%;
-    height: 300px;
+    width: 40%;
+    height: 400px;
     /* background-color: red; */
     background-image: url('../../assets/ngc2024.jpg');
     background-repeat: no-repeat;
@@ -86,5 +86,46 @@
     .nbca_card_right{
         width: 100%;
     }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 2500px){
+
+    .nbca{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nbca_card{
+        border-radius: 15px;
+    }
+    .nbca_card_left_top > h3{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .nbca_card_right{
+        width: 45%;
+        height: 800px;
+    }
+    
+    .nbca_card_left > p{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 90px;
+        margin-top: 30px;
+    }
+    
+    .nbca_card_left > h4{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 70px;
+        margin-top: 30px;
+    }
+    
+    
 
 }

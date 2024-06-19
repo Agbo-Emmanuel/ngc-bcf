@@ -60,3 +60,55 @@
         gap: 30px;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 2500px){
+
+    .worship_with_us{
+        width: 100%;
+        background-color: darkblue;
+        padding: 100px 50px 100px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .worship_with_us_left{
+        gap: 20px;
+    }
+    .worship_with_us_left > h3{
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .worship_with_us_left > p{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .worship_with_us_right{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .worship_with_us_right > h3{
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .worship_with_us_right > p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 80px;
+        color: #ffffff;
+    }
+    
+    .media_links{
+        display: flex;
+        gap: 10px;
+        color: #ffffff;
+    }
+
+}

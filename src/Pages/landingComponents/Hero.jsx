@@ -25,20 +25,20 @@ const Hero = ({ showmenu, setShowMenu }) => {
                 <div className='bugger_menu' onClick={()=>setShowMenu(!showmenu)}><GiHamburgerMenu style={{width: "100%", height: "100%", color: "white"}} /></div>
             </div>
             <div className='hero_bottom'>
-                <div className='hero_bottom_left'></div>
+                {/* <div className='hero_bottom_left'></div> */}
                 <div className='hero_bottom_right'>
                     <div className='hero_date'>
                         <div className='hero_date_logo'><BiCalendarEvent style={{width: "20px", height: "20px", color: "white"}}/></div>
                         <p>Saturday 24th August,2024</p>
                     </div>
-                    <h1 className='hero_large_text'>NGC Business & Career Fair 2024</h1>
+                    <h1 className='hero_large_text'>NGC Business &<br/> Career Fair 2024</h1>
                     <div className='hero_date'>
                         <div className='hero_date_logo'><IoLocationSharp style={{width: "20px", height: "20px", color: "white"}} /></div>
                         <p>78, Marine Road Apapa Lagos.</p>
                     </div>
                     <div className='hero_btns'>
                         <div className='hero_Register_btn' onClick={()=>window.location.href = "https://forms.gle/sSfeVvk3aoXXUGnw7"}>Register</div>
-                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.office.com/r/NUgpXm82tb"}>Book a Stall</div>
+                        <div className='hero_buystall_btn' onClick={()=>window.location.href = "https://forms.gle/nut8uv78RFmGYAoZA"}>Book a Stall</div>
                     </div>
                 </div>
             </div>
