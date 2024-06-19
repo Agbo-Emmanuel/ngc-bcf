@@ -165,8 +165,8 @@
 
     .Hero{
         background: 
-        linear-gradient(to left, rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942), rgba(0, 45, 0, 0.942)), 
-        url('../../assets/redeemedherobackground.png');
+        linear-gradient(to left, rgba(3, 23, 87, 0.922), rgb(3, 25, 99), rgba(1, 12, 85, 0.897)), 
+        url('../../assets/redeemedaboutimage.jpg');
     }
 
     .hero_bottom_left{
