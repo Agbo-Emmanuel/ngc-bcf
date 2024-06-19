@@ -45,3 +45,43 @@
         gap: 30px;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 2500px){
+
+    .host{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0px 100px 0px;
+        gap: 80px;
+    }
+    
+    
+    .the_host{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+        gap: 30px;
+    }
+    .the_host > h1{
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 90px;
+    }
+    .host_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        /* background-color: blue; */
+        flex-wrap: wrap;
+    }
+
+}

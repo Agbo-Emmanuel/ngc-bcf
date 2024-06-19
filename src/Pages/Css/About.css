@@ -104,3 +104,73 @@
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 2500px){
+
+    .about{
+        width: 100%;
+        padding: 90px 50px 30px 50px ;
+        /* background-color: yellow; */
+    }
+    
+    .about > h1{
+        font-size: 70px;
+    }
+    
+    .about_context{
+        /* background-color: aqua; */
+        margin-top: 60px;
+    }
+    
+    .about_img{
+        height: 800px;
+    }
+    
+    .about_text{
+        height: 800px;
+        /* background-color: green; */
+    }
+    .about_text > p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 90px;
+    }
+    
+    .about_text > h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .about_business{
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .about_business_text{
+        width: 70%;
+        /* background-color: green; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        color: white;
+        text-align: center;
+    }
+
+
+}

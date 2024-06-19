@@ -8,7 +8,7 @@ const NgcCard = ({ title, subT, text, btn, img, text2, direction }) => {
     const send = ()=>{
 
         if(btn === "Book a Stall"){
-            window.location.href = "https://forms.office.com/r/NUgpXm82tb"
+            window.location.href = "https://forms.gle/nut8uv78RFmGYAoZA"
         }else{
             window.location.href = "https://forms.gle/sSfeVvk3aoXXUGnw7"
         }
