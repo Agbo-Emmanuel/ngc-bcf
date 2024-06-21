@@ -42,6 +42,9 @@ const Hero = ({ showmenu, setShowMenu }) => {
                     </div>
                 </div>
             </div>
+            <div className='bcf_pattern'>
+
+            </div>
             {
                 showmenu ? <MobileMenu showmenu = {showmenu} setShowMenu = {setShowMenu}/> : null
             }
