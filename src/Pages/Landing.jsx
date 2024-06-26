@@ -48,7 +48,7 @@ const Landing = () => {
               <div className='nbca_card_left_top'>
                 <h3>NGC-BCF <span>2024</span></h3>
               </div>
-              <p>Join us at the  NGC Business and Career Affair to date! This year's event
+              <p>Join us at the  NGC Business and Career fair to date! This year's event
                   promises to be bigger and better, bringing together a vibrant community of business
                   leaders, career professionals, and aspiring entrepreneurs.
               </p>
@@ -77,9 +77,9 @@ const Landing = () => {
         <NgcCard 
           title = '' 
           subT = '' 
-          text = "Secure your booth/stall at the largest and most anticipated NGC Business and Career Affair yet! This year, we're bigger and better, bringing together business leaders, career professionals, and aspiring entrepreneurs.  "
+          text = "Secure your booth/stall at the largest and most anticipated NGC Business and Career fair yet! This year, we're bigger and better, bringing together business leaders, career professionals, and aspiring entrepreneurs.  "
           btn = 'Book a Stall'
-          text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career Affair offers unparalleled exposure and growth opportunities."
+          text2 = "Don't miss this unique opportunity to showcase your products, connect with potential clients, and expand your network. Whether you're a startup or an established business, the NGC Business and Career fair offers unparalleled exposure and growth opportunities."
           img = {image3}
           direction = 'row-reverse'
         />

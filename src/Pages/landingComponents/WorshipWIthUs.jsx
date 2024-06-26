@@ -16,7 +16,7 @@ const WorshipWIthUs = () => {
             <div className='worship_with_us_left'>
                 <h3>WORSHIP WITH US </h3>
                 <p>
-                    The Redeemed Christian Church Of God
+                    The Redeemed Christian Church Of God,<br/>
                     Next Generation Church <br/>
                     78, Marine Road Apapa Lagos
                 </p>
