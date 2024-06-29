@@ -15,7 +15,7 @@
 }
 .nbca_card{
     width: 100%;
-    padding: 50px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 8px;
     display: flex;
@@ -24,6 +24,9 @@
 }
 .nbca_card_left{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* background-color: yellow; */
 }
 .nbca_card_left_top > h3{
@@ -38,9 +41,9 @@
 }
 .nbca_card_right{
     width: 40%;
-    height: 400px;
-    /* background-color: red; */
-    background-image: url('../../assets/ngc2024.jpg');
+    height: 300px;
+    background-color: red;
+    background-image: url('../../assets/ngc.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

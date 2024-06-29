@@ -4,8 +4,8 @@ import Hero from './landingComponents/Hero';
 import About from './landingComponents/About';
 import Host from './landingComponents/Host';
 import NgcCard from './landingComponents/NgcCard';
-import image2 from '../assets/ngcbusinessimage.jpg';
-import image3 from '../assets/ngcsecurestall.jpg';
+import image2 from '../assets/busines.jpg';
+import image3 from '../assets/bookastallimg.jpg';
 import DontMissIt from './landingComponents/DontMissIt';
 import WorshipWIthUs from './landingComponents/WorshipWIthUs';
 import { motion } from 'framer-motion'
