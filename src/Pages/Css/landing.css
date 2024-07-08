@@ -42,7 +42,6 @@
 .nbca_card_right{
     width: 40%;
     height: 300px;
-    background-color: red;
     background-image: url('../../assets/ngc.jpg');
     background-repeat: no-repeat;
     background-position: center;
