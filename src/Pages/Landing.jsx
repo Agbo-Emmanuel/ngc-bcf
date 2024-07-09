@@ -53,7 +53,7 @@ const Landing = () => {
                   leaders, career professionals, and aspiring entrepreneurs.
               </p>
               <h4>Theme:</h4>
-              <p>Staying Ahead of the Curve</p>
+              <p>Staying Ahead of the Curve: Career and Business Strategies in a Fast-Changing world</p>
             </div>
             <div className='nbca_card_right'></div>
           </motion.div>
