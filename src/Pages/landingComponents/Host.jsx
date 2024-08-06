@@ -19,17 +19,16 @@ const Host = () => {
             {/* <div className='the_host'>
                 <h1>Keynote Speaker</h1>
                 <div className='host_img'>
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
+                    <Hostcard img = {host1} name = 'Femi Luther-Abegunde' job = 'Peak Performance Coach and Life strategist' />
                 </div>
             </div> */}
             {/* <div className='the_host'>
-                <h1>Panel Speakers</h1>
+                <h1>Speakers</h1>
                 <div className='host_img'>
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
-                    <Hostcard img = {host1} name = 'Dami Oluwatoyinbo' job = 'KingRaiser, Creative Genius & Pastor of KINGS' />
+                    <Hostcard img = {host1} name = 'Manny Ekpeyong' job = 'Managing Director, G.O.S.L Nigeria Limited' />
+                    <Hostcard img = {host1} name = 'Kalesanwo Celina' job = 'Founder, CeliBrand Media' />
+                    <Hostcard img = {host1} name = 'Itoro Asuquo' job = 'Financial Controller, Pinnacle Oil & Gas' />
+                    <Hostcard img = {host1} name = 'Vinitha' job = 'Founder/Executive Pastry Chef Crema Coffee House' />
                 </div>
             </div> */}
         </div>

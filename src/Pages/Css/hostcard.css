@@ -2,7 +2,7 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     /* background-color: yellow; */
 }
 .host_card_img{

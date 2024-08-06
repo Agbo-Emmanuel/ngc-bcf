@@ -59,14 +59,7 @@ const Landing = () => {
           </motion.div>
         </div>
         <Host/>
-        {/* <NgcCard 
-          title = 'NGC-BCF' 
-          subT = 'SME CHALLENGE' 
-          text = 'Ready to launch your dream job or business? Join us at the NGC Business Career Fair the ultimate event to supercharge your career and empower your business!.'
-          btn = 'Apply Now'
-          img = {image1}
-        /> */}
-          <DontMissIt/>
+        <DontMissIt/>
         <NgcCard 
           title = '' 
           subT = '' 
